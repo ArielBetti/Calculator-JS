@@ -5,10 +5,7 @@
     	align-items: center;
     	justify-content: center;
        	flex-wrap: nowrap;
-       	margin-top: 120px;
     }
-
-    
 
     .nome-calc h2 {
     	font-size: 2em;
