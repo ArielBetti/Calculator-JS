@@ -18,3 +18,4 @@ function calcular() {
 
 }
 
+//Desenvolvido com suporte da função nativa eval.
