@@ -1,10 +1,7 @@
-function limpar () {
-	document.getElementById('visor').value = '';
-}
+let limp = limpar => document.getElementById('visor').value = '';
 
-function number(valor) {
-	document.getElementById('visor').value += valor;
-}
+
+let number = valor => document.getElementById('visor').value += valor;
 
 function calcular() {
 
