@@ -83,12 +83,23 @@
 		background: rgba(0, 0, 0, 0.5);
 		border: none;
 		color: white;
+		transition: 300ms;
 	}
 
 	.botoes input:hover {
-		transition: 400ms;
 		box-shadow: 0 0 3px 0 #a4a4a4;
 	}
 
+	.btn-go {
+		background: rgba(0, 0, 0, 0.5);
+		border: none;
+		color: white;
+		margin-top: 3px;
+		height: 60px;
+		width: 100%;
+		transition: 300ms;
+	}
 
-
+	.btn-go:hover {
+		box-shadow: 0 0 3px 0 #a4a4a4;
+	}
