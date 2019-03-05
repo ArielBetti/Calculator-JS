@@ -1,18 +1,19 @@
-let limp = limpar => document.getElementById('visor').value = '';
+const number = valor => document.getElementById('visor').value += valor;
 
+window.addEventListener("load", () => {
 
-let number = valor => document.getElementById('visor').value += valor;
+	const calc = document.getElementById("calcular");
 
-function calcular() {
+	calc.addEventListener("click", (event) => {
 
 	let resultado = 0;
 
 	resultado = document.getElementById('visor').value;
-
 	document.getElementById('visor').value = '';
+	document.getElementById('visor').value = eval(resultado);	
 
-	document.getElementById('visor').value = eval(resultado);
+	});
 
-}
+})
 
 //Desenvolvido com suporte da função nativa eval.
